@@ -40,16 +40,19 @@
                     android:textAllCaps="true"
                     android:textColor="@android:color/white"
                     android:textSize="20sp"
-                    tools:text="Lisbon" />
+                    android:text="Lisbon" />
 
                 <TextView
                     android:id="@+id/title_portugal"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/activity_margin"
                     android:layout_marginRight="@dimen/activity_margin"
+                    android:layout_marginEnd="@dimen/activity_margin"
                     android:layout_marginStart="@dimen/activity_margin"
                     android:textColor="@android:color/white"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
                     android:textSize="20sp"
                     android:text="Portugal" />
             </LinearLayout>
