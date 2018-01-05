@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import se.sugarest.jane.portugal.databinding.ActivityMainBinding;
+import se.sugarest.jane.portugal.ui.ListFragment;
 
 public class MainActivity extends AppCompatActivity implements ListFragment.OnItemClickListener {
 

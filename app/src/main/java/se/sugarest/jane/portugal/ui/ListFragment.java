@@ -1,4 +1,4 @@
-package se.sugarest.jane.portugal;
+package se.sugarest.jane.portugal.ui;
 
 import android.content.Context;
 import android.databinding.DataBindingUtil;
@@ -12,7 +12,9 @@ import android.view.ViewGroup;
 
 import java.util.ArrayList;
 
+import se.sugarest.jane.portugal.R;
 import se.sugarest.jane.portugal.databinding.FragmentNavigationRecyclerViewBinding;
+import se.sugarest.jane.portugal.ui.CityAdapter;
 
 /**
  * This fragment class displays a list of Portugal cities.
