@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Portugal</string>
+
+    <!-- Pastéis de Belém -->
+    <string name="item_name_pasteis_de_belem">Pastéis de Belém</string>
+    <string name="city_name_pasteis_de_belem">Lisbon</string>
+    <string name="category_pasteis_de_belem">EAT</string>
+    <string name="notes_pasteis_de_belem">Pastéis de Nata | Portuguese Custard Tarts</string>
+    <string name="fb_page_pasteis_de_belem">https://www.facebook.com/Pastéis-de-Belém-Página-Oficial-259064930776155/</string>
+    <string name="website_pasteis_de_belem">http://pasteisdebelem.pt/en/</string>
+    <string name="google_map_location_pasteis_de_belem">Rua de Belém, 84 a 92 Lisbon, Portugal 1300-085</string>
 </resources>

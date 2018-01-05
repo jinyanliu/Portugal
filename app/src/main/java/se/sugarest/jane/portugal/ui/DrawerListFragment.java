@@ -14,20 +14,19 @@ import java.util.ArrayList;
 
 import se.sugarest.jane.portugal.R;
 import se.sugarest.jane.portugal.databinding.FragmentNavigationRecyclerViewBinding;
-import se.sugarest.jane.portugal.ui.CityAdapter;
 
 /**
  * This fragment class displays a list of Portugal cities.
  * Created by jane on 18-1-4.
  */
 
-public class ListFragment extends Fragment implements CityAdapter.CityAdapterOnClickHandler {
+public class DrawerListFragment extends Fragment implements CityAdapter.CityAdapterOnClickHandler {
 
     private FragmentNavigationRecyclerViewBinding mBinding;
     private CityAdapter mCityAdapter;
     private OnItemClickListener mOnItemClickCallBack;
 
-    public ListFragment() {
+    public DrawerListFragment() {
     }
 
     public interface OnItemClickListener {
@@ -56,7 +55,7 @@ public class ListFragment extends Fragment implements CityAdapter.CityAdapterOnC
 
         setUpRecyclerViewWithAdapter();
 
-        setUpDummyData();
+        setUpDummyListCityNames();
 
         return rootView;
 
@@ -77,7 +76,7 @@ public class ListFragment extends Fragment implements CityAdapter.CityAdapterOnC
         mOnItemClickCallBack.onItemClicked(cityName);
     }
 
-    private void setUpDummyData() {
+    private void setUpDummyListCityNames() {
         ArrayList<String> cityNameDummyData = new ArrayList<>();
         cityNameDummyData.add("Lisbon");
         cityNameDummyData.add("Porto");
