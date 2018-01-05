@@ -1,4 +1,4 @@
-package se.sugarest.jane.portugal.ui;
+package se.sugarest.jane.portugal.ui.drawerList;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;

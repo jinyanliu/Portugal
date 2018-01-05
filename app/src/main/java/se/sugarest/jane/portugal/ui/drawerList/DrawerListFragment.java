@@ -1,4 +1,4 @@
-package se.sugarest.jane.portugal.ui;
+package se.sugarest.jane.portugal.ui.drawerList;
 
 import android.content.Context;
 import android.databinding.DataBindingUtil;
@@ -24,13 +24,13 @@ public class DrawerListFragment extends Fragment implements CityAdapter.CityAdap
 
     private FragmentNavigationRecyclerViewBinding mBinding;
     private CityAdapter mCityAdapter;
-    private OnItemClickListener mOnItemClickCallBack;
+    private DrawerListOnItemClickListener mOnItemClickCallBack;
 
     public DrawerListFragment() {
     }
 
-    public interface OnItemClickListener {
-        void onItemClicked(String cityName);
+    public interface DrawerListOnItemClickListener {
+        void drawerListOnItemClicked(String cityName);
     }
 
     @Override
@@ -38,10 +38,10 @@ public class DrawerListFragment extends Fragment implements CityAdapter.CityAdap
         super.onAttach(context);
 
         try {
-            mOnItemClickCallBack = (OnItemClickListener) context;
+            mOnItemClickCallBack = (DrawerListOnItemClickListener) context;
         } catch (ClassCastException e) {
             throw new ClassCastException(context.toString()
-                    + " must implement OnItemClickListener");
+                    + " must implement DrawerListFragment DrawerListOnItemClickListener");
         }
     }
 
@@ -73,7 +73,7 @@ public class DrawerListFragment extends Fragment implements CityAdapter.CityAdap
 
     @Override
     public void onClick(String cityName) {
-        mOnItemClickCallBack.onItemClicked(cityName);
+        mOnItemClickCallBack.drawerListOnItemClicked(cityName);
     }
 
     private void setUpDummyListCityNames() {

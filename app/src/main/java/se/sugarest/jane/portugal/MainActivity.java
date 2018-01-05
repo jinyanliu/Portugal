@@ -10,14 +10,17 @@ import se.sugarest.jane.portugal.data.PortugalDummyDataSource;
 import se.sugarest.jane.portugal.data.database.PortugalDao;
 import se.sugarest.jane.portugal.data.database.PortugalDataBase;
 import se.sugarest.jane.portugal.databinding.ActivityMainBinding;
-import se.sugarest.jane.portugal.ui.DrawerListFragment;
+import se.sugarest.jane.portugal.ui.drawerList.DrawerListFragment;
+import se.sugarest.jane.portugal.ui.mainScreenList.MainScreenListFragment;
 import se.sugarest.jane.portugal.utilities.AppExecutors;
 
-public class MainActivity extends AppCompatActivity implements DrawerListFragment.OnItemClickListener {
+public class MainActivity extends AppCompatActivity implements DrawerListFragment.DrawerListOnItemClickListener
+        , MainScreenListFragment.MainScreenListOnItemClickListener {
 
     private ActivityMainBinding mBinding;
     private FragmentManager mFragmentManager;
     private String mCurrentCityName;
+    private String mCurrentItemName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,10 +36,16 @@ public class MainActivity extends AppCompatActivity implements DrawerListFragmen
 
         setUpDummyData();
 
-        DrawerListFragment navigationDrawerFragment = new DrawerListFragment();
         mFragmentManager = getSupportFragmentManager();
+
+        DrawerListFragment navigationDrawerFragment = new DrawerListFragment();
         mFragmentManager.beginTransaction()
                 .add(R.id.navigation_drawer_container, navigationDrawerFragment)
+                .commit();
+
+        MainScreenListFragment mainScreenListFragment = new MainScreenListFragment();
+        mFragmentManager.beginTransaction()
+                .add(R.id.main_screen_list_container, mainScreenListFragment)
                 .commit();
     }
 
@@ -64,7 +73,12 @@ public class MainActivity extends AppCompatActivity implements DrawerListFragmen
     }
 
     @Override
-    public void onItemClicked(String cityName) {
+    public void drawerListOnItemClicked(String cityName) {
         mCurrentCityName = cityName;
+    }
+
+    @Override
+    public void mainScreenListOnItemClicked(String itemName) {
+        mCurrentItemName = itemName;
     }
 }
