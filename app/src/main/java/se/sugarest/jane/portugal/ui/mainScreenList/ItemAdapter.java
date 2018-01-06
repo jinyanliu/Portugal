@@ -58,7 +58,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemAdapterVie
         if (newArray != null) {
             mCityEntriesArrayList.clear();
             mCityEntriesArrayList.addAll(newArray);
-            notifyDataSetChanged();
+            //notifyDataSetChanged();
         }
     }
 

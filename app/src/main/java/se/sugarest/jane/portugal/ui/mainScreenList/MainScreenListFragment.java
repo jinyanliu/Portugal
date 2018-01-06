@@ -1,31 +1,31 @@
 package se.sugarest.jane.portugal.ui.mainScreenList;
 
+import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import se.sugarest.jane.portugal.R;
-import se.sugarest.jane.portugal.data.PortugalDummyDataSource;
 import se.sugarest.jane.portugal.data.database.CityEntry;
-import se.sugarest.jane.portugal.data.database.PortugalDao;
-import se.sugarest.jane.portugal.data.database.PortugalDataBase;
 import se.sugarest.jane.portugal.databinding.FragmentNavigationRecyclerViewBinding;
-import se.sugarest.jane.portugal.utilities.AppExecutors;
+import se.sugarest.jane.portugal.utilities.InjectorUtils;
 
 /**
  * Created by jane on 18-1-5.
  */
 
 public class MainScreenListFragment extends Fragment implements ItemAdapter.ItemAdapterOnClickHandler {
+
+    private static final String LOG_TAG = MainScreenListFragment.class.getSimpleName();
 
     private FragmentNavigationRecyclerViewBinding mBinding;
     private ItemAdapter mItemAdapter;
@@ -58,9 +58,7 @@ public class MainScreenListFragment extends Fragment implements ItemAdapter.Item
                 inflater, R.layout.fragment_navigation_recycler_view, container, false);
         View rootView = mBinding.getRoot();
 
-        setUpRecyclerViewWithAdapter();
-
-        setUpDummyListItemNames();
+        setUpDummyListItems();
 
         return rootView;
 
@@ -77,28 +75,30 @@ public class MainScreenListFragment extends Fragment implements ItemAdapter.Item
     }
 
     @Override
-    public void onClick(String cityName) {
-        mOnItemClickCallBack.mainScreenListOnItemClicked(cityName);
+    public void onClick(String itemName) {
+        mOnItemClickCallBack.mainScreenListOnItemClicked(itemName);
     }
 
-    private void setUpDummyListItemNames() {
-        AppExecutors executors = AppExecutors.getInstance();
+    private void setUpDummyListItems() {
 
-        PortugalDataBase database = PortugalDataBase.getInstance(getActivity().getApplicationContext());
-        PortugalDao portugalDao = database.portugalDao();
+        ItemViewModelFactory factory = InjectorUtils
+                .providePortugalViewModelFactory(getActivity().getApplicationContext());
 
-        List<CityEntry> cityEntryList = new ArrayList<>();
+        ItemViewModel viewModel = ViewModelProviders.of(this, factory).get(ItemViewModel.class);
 
-//        executors.diskIO().execute(() -> {
-//            cityEntryList.addAll(portugalDao.getCityEntries());
-//        });
+        viewModel.getCityEntries().observe(this, cityEntryList -> {
+            if (cityEntryList != null && !cityEntryList.isEmpty()) {
+                setUpRecyclerViewWithAdapter();
+                bindDataToUI(cityEntryList);
+            } else {
+                Log.w(LOG_TAG, "There is no city entry result available.");
+            }
+        });
 
-        PortugalDummyDataSource portugalDummyDataSource = new PortugalDummyDataSource();
+    }
 
-        cityEntryList.addAll(portugalDummyDataSource.getDummyListCityEntries(getActivity()));
-
-        mItemAdapter.setUpCityEntryArrayList(cityEntryList);
-
+    private void bindDataToUI(List<CityEntry> cityEntries) {
+        mItemAdapter.setUpCityEntryArrayList(cityEntries);
     }
 }
 

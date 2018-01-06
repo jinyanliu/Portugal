@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import se.sugarest.jane.portugal.data.PortugalDummyDataSource;
+import se.sugarest.jane.portugal.data.PortugalDummyData;
 import se.sugarest.jane.portugal.data.database.PortugalDao;
 import se.sugarest.jane.portugal.data.database.PortugalDataBase;
 import se.sugarest.jane.portugal.databinding.ActivityMainBinding;
@@ -55,9 +55,10 @@ public class MainActivity extends AppCompatActivity implements DrawerListFragmen
         PortugalDataBase database = PortugalDataBase.getInstance(this.getApplicationContext());
         PortugalDao portugalDao = database.portugalDao();
 
-        PortugalDummyDataSource portugalDummyDataSource = new PortugalDummyDataSource();
+        PortugalDummyData portugalDummyDataSource = new PortugalDummyData();
 
         executors.diskIO().execute(() -> {
+            portugalDao.deleteCityEntries();
             portugalDao.bulkInsertCityEntry(portugalDummyDataSource.getDummyListCityEntries(this));
         });
     }

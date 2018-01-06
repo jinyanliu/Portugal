@@ -1,7 +1,9 @@
 package se.sugarest.jane.portugal.data.database;
 
+import android.arch.lifecycle.LiveData;
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Insert;
+import android.arch.persistence.room.OnConflictStrategy;
 import android.arch.persistence.room.Query;
 
 import java.util.List;
@@ -20,7 +22,7 @@ public interface PortugalDao {
     /**
      * Inserts a {@link CityEntry} into the table.
      */
-    @Insert
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insertCityEntry(CityEntry cityEntry);
 
     /**
@@ -33,6 +35,12 @@ public interface PortugalDao {
      * Get all the {@link CityEntry}
      */
     @Query("SELECT * FROM " + TABLE_NAME_CITY_ENTRY)
-    List<CityEntry> getCityEntries();
+    LiveData<List<CityEntry>> getCityEntries();
+
+    /**
+     * Delete all the {@link CityEntry}
+     */
+    @Query("DELETE FROM " + TABLE_NAME_CITY_ENTRY)
+    void deleteCityEntries();
 
 }

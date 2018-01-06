@@ -12,7 +12,7 @@ import se.sugarest.jane.portugal.data.database.CityEntry;
  * Created by jane on 18-1-5.
  */
 
-public class PortugalDummyDataSource {
+public class PortugalDummyData {
 
     public List<CityEntry> getDummyListCityEntries(Context context) {
         List<CityEntry> cityEntryList = new ArrayList<>();
