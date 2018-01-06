@@ -69,6 +69,19 @@ public class PortugalDummyData {
                 context.getString(R.string.google_map_location_padrao_dos_descobrimentos));
         cityEntryList.add(padrao_dos_descobrimentos);
 
+        /* ******************* *
+         * jeronimos_monastery *
+         * ******************* */
+        CityEntry jeronimos_monastery = new CityEntry(
+                context.getString(R.string.item_name_jeronimos_monastery),
+                context.getString(R.string.city_name_jeronimos_monastery),
+                context.getString(R.string.category_jeronimos_monastery),
+                context.getString(R.string.notes_jeronimos_monastery),
+                context.getString(R.string.fb_page_jeronimos_monastery),
+                context.getString(R.string.website_jeronimos_monastery),
+                context.getString(R.string.google_map_jeronimos_monastery));
+        cityEntryList.add(jeronimos_monastery);
+
         return cityEntryList;
     }
 }

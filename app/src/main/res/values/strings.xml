@@ -35,5 +35,14 @@
     <string name="notes_padrao_dos_descobrimentos">Monument of the Discoveries.</string>
     <string name="fb_page_padrao_dos_descobrimentos">https://www.facebook.com/padraodosdescobrimentos/?rf=132123063490065</string>
     <string name="website_padrao_dos_descobrimentos">https://en.wikipedia.org/wiki/Padrão_dos_Descobrimentos</string>
-    <string name="google_map_location_padrao_dos_descobrimentos"> Av. de Brasília, 1400-038 Lisboa, Portugal</string>
+    <string name="google_map_location_padrao_dos_descobrimentos">Av. de Brasília, 1400-038 Lisboa, Portugal</string>
+
+    <!-- Jerónimos Monastery -->
+    <string name="item_name_jeronimos_monastery">Jerónimos Monastery</string>
+    <string name="city_name_jeronimos_monastery">Lisbon</string>
+    <string name="category_jeronimos_monastery">SEE</string>
+    <string name="notes_jeronimos_monastery">Hieronymites Monastery.</string>
+    <string name="fb_page_jeronimos_monastery">https://www.facebook.com/pages/Jerónimos-Monastery/107584029264604?rf=108986732453282</string>
+    <string name="website_jeronimos_monastery">https://en.wikipedia.org/wiki/Jerónimos_Monastery</string>
+    <string name="google_map_jeronimos_monastery">Praça do Império 1400-206 Lisboa, Portugal</string>
 </resources>
