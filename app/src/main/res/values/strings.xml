@@ -8,13 +8,23 @@
     <string name="notes_pasteis_de_belem">Pastéis de Nata | Portuguese Custard Tarts</string>
     <string name="fb_page_pasteis_de_belem">https://www.facebook.com/Pastéis-de-Belém-Página-Oficial-259064930776155/</string>
     <string name="website_pasteis_de_belem">http://pasteisdebelem.pt/en/</string>
-    <string name="google_map_location_pasteis_de_belem">Rua de Belém, 84 a 92 Lisbon, Portugal 1300-085</string>
+    <string name="google_map_location_pasteis_de_belem">R. Belém 84-92, 1300-085 Lisboa, Portugal</string>
 
     <!-- Praça do Comércio -->
     <string name="item_name_praca_do_comercio">Praça do Comércio</string>
     <string name="city_name_praca_do_comercio">Lisbon</string>
     <string name="category_praca_do_comercio">SEE</string>
-    <string name="notes_praca_do_comercio">The Square of Commerce, to indicate its new function in the economy of Lisbon.</string>
+    <string name="notes_praca_do_comercio">A square.</string>
     <string name="fb_page_praca_do_comercio">https://www.facebook.com/pages/Praça-do-comércio-Lisboa/161359554423331</string>
-    <string name="google_map_location_praca_do_comercio">1100-148 Lisbon, Portugal</string>
+    <string name="website_praca_do_comercio">https://en.wikipedia.org/wiki/Praça_do_Comércio</string>
+    <string name="google_map_location_praca_do_comercio">1100-148 Lisboa, Portugal</string>
+
+    <!-- Belém Tower -->
+    <string name="item_name_belem_tower">Belém Tower</string>
+    <string name="city_name_belem_tower">Lisbon</string>
+    <string name="category_belem_tower">SEE</string>
+    <string name="notes_belem_tower">A beautiful tower.</string>
+    <string name="fb_page_belem_tower">https://www.facebook.com/pages/Belém-Tower/107417125955047</string>
+    <string name="website_belem_tower">https://en.wikipedia.org/wiki/Belém_Tower</string>
+    <string name="google_map_location_belem_tower">Av. de Brasília, 1400-038 Lisboa, Portugal</string>
 </resources>

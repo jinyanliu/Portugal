@@ -39,9 +39,22 @@ public class PortugalDummyData {
                 context.getString(R.string.category_praca_do_comercio),
                 context.getString(R.string.notes_pasteis_de_belem),
                 context.getString(R.string.fb_page_praca_do_comercio),
-                null,
+                context.getString(R.string.website_praca_do_comercio),
                 context.getString(R.string.google_map_location_praca_do_comercio));
         cityEntryList.add(praca_do_comercio);
+
+         /* ********** *
+         * belem_tower *
+         * *********** */
+        CityEntry belem_tower = new CityEntry(
+                context.getString(R.string.item_name_belem_tower),
+                context.getString(R.string.city_name_belem_tower),
+                context.getString(R.string.category_belem_tower),
+                context.getString(R.string.notes_belem_tower),
+                context.getString(R.string.fb_page_belem_tower),
+                context.getString(R.string.website_belem_tower),
+                context.getString(R.string.google_map_location_belem_tower));
+        cityEntryList.add(belem_tower);
 
         return cityEntryList;
     }
