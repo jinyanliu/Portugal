@@ -14,4 +14,8 @@ public class Constants {
     public static final String DATABASE_NAME = "portugal";
 
     public static final String TABLE_NAME_CITY_ENTRY = "city_entry";
+
+    public static final String CATEGORY_EAT = "EAT";
+    public static final String CATEGORY_SHOP = "SHOP";
+    public static final String CATEGORY_SEE = "SEE";
 }

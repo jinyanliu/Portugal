@@ -69,7 +69,7 @@ public class MainScreenListFragment extends Fragment implements ItemAdapter.Item
         mBinding.navigationDrawerRecyclerView.setLayoutManager(layoutManager);
         mBinding.navigationDrawerRecyclerView.setHasFixedSize(true);
         if (mItemAdapter == null) {
-            mItemAdapter = new ItemAdapter(this);
+            mItemAdapter = new ItemAdapter(this, getActivity());
         }
         mBinding.navigationDrawerRecyclerView.setAdapter(mItemAdapter);
     }
@@ -94,7 +94,6 @@ public class MainScreenListFragment extends Fragment implements ItemAdapter.Item
                 Log.w(LOG_TAG, "There is no city entry result available.");
             }
         });
-
     }
 
     private void bindDataToUI(List<CityEntry> cityEntries) {

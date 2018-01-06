@@ -1,5 +1,7 @@
 package se.sugarest.jane.portugal.ui.mainScreenList;
 
+import android.content.Context;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,8 +10,13 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
+import se.sugarest.jane.portugal.R;
 import se.sugarest.jane.portugal.data.database.CityEntry;
 import se.sugarest.jane.portugal.databinding.MainScreenListItemBinding;
+
+import static se.sugarest.jane.portugal.utilities.Constants.CATEGORY_EAT;
+import static se.sugarest.jane.portugal.utilities.Constants.CATEGORY_SEE;
+import static se.sugarest.jane.portugal.utilities.Constants.CATEGORY_SHOP;
 
 /**
  * Created by jane on 18-1-5.
@@ -19,6 +26,7 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemAdapterVie
 
     private final ItemAdapter.ItemAdapterOnClickHandler mClickHandler;
     private List<CityEntry> mCityEntriesArrayList = new ArrayList<>();
+    private Context mContext;
 
     /**
      * Creates a ItemAdapter.
@@ -26,8 +34,10 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemAdapterVie
      * @param clickHandler The on-click handler for this adapter. This single handler is called
      *                     when an item is clicked.
      */
-    public ItemAdapter(ItemAdapter.ItemAdapterOnClickHandler clickHandler) {
+    public ItemAdapter(ItemAdapter.ItemAdapterOnClickHandler clickHandler, Context context) {
         this.mClickHandler = clickHandler;
+        this.mContext = context;
+
     }
 
     @Override
@@ -86,9 +96,12 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemAdapterVie
             mBinding.tvItemName.setText(itemName);
             if (category.contains(",")) {
                 mBinding.tvCategoryOne.setText(category.split(",")[0]);
+                mBinding.tvCategoryOne.setBackgroundColor(ContextCompat.getColor(mContext, getBgColor(category.split(",")[0])));
                 mBinding.tvCategoryTwo.setText(category.split(",")[1]);
+                mBinding.tvCategoryTwo.setBackgroundColor(ContextCompat.getColor(mContext, getBgColor(category.split(",")[1])));
             } else {
                 mBinding.tvCategoryOne.setText(category);
+                mBinding.tvCategoryOne.setBackgroundColor(ContextCompat.getColor(mContext, getBgColor(category)));
                 mBinding.tvCategoryTwo.setVisibility(View.GONE);
             }
             mBinding.executePendingBindings();
@@ -99,6 +112,19 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemAdapterVie
             int adapterPosition = getAdapterPosition();
             String clickedItemName = mCityEntriesArrayList.get(adapterPosition).getItemName();
             mClickHandler.onClick(clickedItemName);
+        }
+    }
+
+    private int getBgColor(String categoryTab) {
+        switch (categoryTab) {
+            case CATEGORY_EAT:
+                return R.color.eat_tab;
+            case CATEGORY_SHOP:
+                return R.color.shop_tab;
+            case CATEGORY_SEE:
+                return R.color.see_tab;
+            default:
+                return R.color.colorAccent;
         }
     }
 }
