@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="drawer_menu_width">120dp</dimen>
-    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="activity_margin">8dp</dimen>
+    <dimen name="line_height_under_items">1dp</dimen>
 </resources>

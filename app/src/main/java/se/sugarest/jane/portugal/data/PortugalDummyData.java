@@ -56,6 +56,19 @@ public class PortugalDummyData {
                 context.getString(R.string.google_map_location_belem_tower));
         cityEntryList.add(belem_tower);
 
+        /* ************************* *
+         * padrao_dos_descobrimentos *
+         * ************************* */
+        CityEntry padrao_dos_descobrimentos = new CityEntry(
+                context.getString(R.string.item_name_padrao_dos_descobrimentos),
+                context.getString(R.string.city_name_padrao_dos_descobrimentos),
+                context.getString(R.string.category_padrao_dos_descobrimentos),
+                context.getString(R.string.notes_padrao_dos_descobrimentos),
+                context.getString(R.string.fb_page_padrao_dos_descobrimentos),
+                context.getString(R.string.website_padrao_dos_descobrimentos),
+                context.getString(R.string.google_map_location_padrao_dos_descobrimentos));
+        cityEntryList.add(padrao_dos_descobrimentos);
+
         return cityEntryList;
     }
 }
