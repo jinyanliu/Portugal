@@ -95,6 +95,32 @@ public class PortugalDummyData {
                 context.getString(R.string.google_map_vasco_da_gama));
         cityEntryList.add(vasco_da_gama);
 
+         /* ****** *
+          * mr_lin *
+          * ****** */
+        CityEntry mr_lin = new CityEntry(
+                context.getString(R.string.item_name_mr_lin),
+                context.getString(R.string.city_name_mr_lin),
+                context.getString(R.string.category_mr_lin),
+                context.getString(R.string.notes_mr_lin),
+                context.getString(R.string.fb_page_mr_lin),
+                context.getString(R.string.website_mr_lin),
+                context.getString(R.string.google_map_mr_lin));
+        cityEntryList.add(mr_lin);
+
+        /* ************* *
+         * the_old_house *
+         * ************* */
+        CityEntry the_old_house = new CityEntry(
+                context.getString(R.string.item_name_the_old_house),
+                context.getString(R.string.city_name_the_old_house),
+                context.getString(R.string.category_the_old_house),
+                context.getString(R.string.notes_the_old_house),
+                context.getString(R.string.fb_page_the_old_house),
+                context.getString(R.string.website_the_old_house),
+                context.getString(R.string.google_map_the_old_house));
+        cityEntryList.add(the_old_house);
+
         return cityEntryList;
     }
 }

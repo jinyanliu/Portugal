@@ -54,4 +54,22 @@
     <string name="fb_page_vasco_da_gama">https://www.facebook.com/centrovascodagama</string>
     <string name="website_vasco_da_gama">https://www.centrovascodagama.pt/en/home/</string>
     <string name="google_map_vasco_da_gama">Av. Dom João II 40, 1990-094 Lisboa, Portugal</string>
+
+    <!-- Mr Lin -->
+    <string name="item_name_mr_lin">Mr Lin</string>
+    <string name="city_name_mr_lin">Lisbon</string>
+    <string name="category_mr_lin">EAT</string>
+    <string name="notes_mr_lin">Chinese Restaurant.</string>
+    <string name="fb_page_mr_lin">https://www.facebook.com/Mr-Lin-720818254724936/?rf=1669417166612253</string>
+    <string name="website_mr_lin">https://www.tripadvisor.com/Restaurant_Review-g189158-d10529065-Reviews-Mr_Lin-Lisbon_Lisbon_District_Central_Portugal.html</string>
+    <string name="google_map_mr_lin">R. Pimenta 45, 1990-254 Lisboa, Portugal</string>
+
+    <!-- The Old House -->
+    <string name="item_name_the_old_house">The Old House</string>
+    <string name="city_name_the_old_house">Lisbon</string>
+    <string name="category_the_old_house">EAT</string>
+    <string name="notes_the_old_house">Chinese Restaurant.</string>
+    <string name="fb_page_the_old_house">https://www.facebook.com/TheOldHousePortugal/</string>
+    <string name="website_the_old_house">http://www.theoldhouseportugal.pt/</string>
+    <string name="google_map_the_old_house">R. Pimenta 9, 1990-254 Lisboa, Portugal</string>
 </resources>
