@@ -24,11 +24,14 @@ public class CityEntry {
 
     private String notes;
 
-    private String fbPage;
+    // Set default value to null
+    private String fbPage = null;
 
-    private String website;
+    // Set default value to null
+    private String website = null;
 
-    private String googleMapLocation;
+    // Set default value to null
+    private String googleMapLocation = null;
 
     // Constructor used by putting data into the database. Tell Room to ignore it.
     @Ignore

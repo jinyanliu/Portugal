@@ -9,4 +9,12 @@
     <string name="fb_page_pasteis_de_belem">https://www.facebook.com/Pastéis-de-Belém-Página-Oficial-259064930776155/</string>
     <string name="website_pasteis_de_belem">http://pasteisdebelem.pt/en/</string>
     <string name="google_map_location_pasteis_de_belem">Rua de Belém, 84 a 92 Lisbon, Portugal 1300-085</string>
+
+    <!-- Praça do Comércio -->
+    <string name="item_name_praca_do_comercio">Praça do Comércio</string>
+    <string name="city_name_praca_do_comercio">Lisbon</string>
+    <string name="category_praca_do_comercio">SEE</string>
+    <string name="notes_praca_do_comercio">The Square of Commerce, to indicate its new function in the economy of Lisbon.</string>
+    <string name="fb_page_praca_do_comercio">https://www.facebook.com/pages/Praça-do-comércio-Lisboa/161359554423331</string>
+    <string name="google_map_location_praca_do_comercio">1100-148 Lisbon, Portugal</string>
 </resources>
