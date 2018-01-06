@@ -84,7 +84,13 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemAdapterVie
 
         public void bind(String itemName, String category) {
             mBinding.tvItemName.setText(itemName);
-            mBinding.tvCategory.setText(category);
+            if (category.contains(",")) {
+                mBinding.tvCategoryOne.setText(category.split(",")[0]);
+                mBinding.tvCategoryTwo.setText(category.split(",")[1]);
+            } else {
+                mBinding.tvCategoryOne.setText(category);
+                mBinding.tvCategoryTwo.setVisibility(View.GONE);
+            }
             mBinding.executePendingBindings();
         }
 

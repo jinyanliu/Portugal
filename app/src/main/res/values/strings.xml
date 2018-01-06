@@ -49,7 +49,7 @@
     <!-- Vasco da Gama -->
     <string name="item_name_vasco_da_gama">Vasco da Gama</string>
     <string name="city_name_vasco_da_gama">Lisbon</string>
-    <string name="category_vasco_da_gama">SHOP</string>
+    <string name="category_vasco_da_gama">SHOP,EAT</string>
     <string name="notes_vasco_da_gama">KFC</string>
     <string name="fb_page_vasco_da_gama">https://www.facebook.com/centrovascodagama</string>
     <string name="website_vasco_da_gama">https://www.centrovascodagama.pt/en/home/</string>

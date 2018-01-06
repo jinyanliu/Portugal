@@ -34,8 +34,21 @@
                 android:layout_weight="1" />
 
             <TextView
-                android:id="@+id/tv_category"
-                android:layout_width="60dp"
+                android:id="@+id/tv_category_one"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:minHeight="?android:attr/listPreferredItemHeightSmall"
+                android:textAllCaps="true"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                tools:text="@string/category_pasteis_de_belem" />
+
+            <TextView
+                android:id="@+id/tv_category_two"
+                android:layout_width="50dp"
                 android:layout_height="match_parent"
                 android:background="@color/colorAccent"
                 android:gravity="center"
