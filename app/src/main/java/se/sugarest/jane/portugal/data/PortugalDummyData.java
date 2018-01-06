@@ -82,6 +82,19 @@ public class PortugalDummyData {
                 context.getString(R.string.google_map_jeronimos_monastery));
         cityEntryList.add(jeronimos_monastery);
 
+        /* ************* *
+         * vasco_da_gama *
+         * ************* */
+        CityEntry vasco_da_gama = new CityEntry(
+                context.getString(R.string.item_name_vasco_da_gama),
+                context.getString(R.string.city_name_vasco_da_gama),
+                context.getString(R.string.category_vasco_da_gama),
+                context.getString(R.string.notes_vasco_da_gama),
+                context.getString(R.string.fb_page_vasco_da_gama),
+                context.getString(R.string.website_vasco_da_gama),
+                context.getString(R.string.google_map_vasco_da_gama));
+        cityEntryList.add(vasco_da_gama);
+
         return cityEntryList;
     }
 }

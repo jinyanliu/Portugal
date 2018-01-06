@@ -45,4 +45,13 @@
     <string name="fb_page_jeronimos_monastery">https://www.facebook.com/pages/Jerónimos-Monastery/107584029264604?rf=108986732453282</string>
     <string name="website_jeronimos_monastery">https://en.wikipedia.org/wiki/Jerónimos_Monastery</string>
     <string name="google_map_jeronimos_monastery">Praça do Império 1400-206 Lisboa, Portugal</string>
+
+    <!-- Vasco da Gama -->
+    <string name="item_name_vasco_da_gama">Vasco da Gama</string>
+    <string name="city_name_vasco_da_gama">Lisbon</string>
+    <string name="category_vasco_da_gama">SHOP</string>
+    <string name="notes_vasco_da_gama">KFC</string>
+    <string name="fb_page_vasco_da_gama">https://www.facebook.com/centrovascodagama</string>
+    <string name="website_vasco_da_gama">https://www.centrovascodagama.pt/en/home/</string>
+    <string name="google_map_vasco_da_gama">Av. Dom João II 40, 1990-094 Lisboa, Portugal</string>
 </resources>
