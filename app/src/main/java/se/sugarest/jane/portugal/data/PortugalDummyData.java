@@ -209,6 +209,9 @@ public class PortugalDummyData {
                 context.getString(R.string.website_sao_jorge_castle),
                 context.getString(R.string.google_map_sao_jorge_castle));
 
+        /* **************** *
+         * lisbon_cathedral *
+         * **************** */
         CityEntry lisbon_cathedral = new CityEntry(
                 context.getString(R.string.item_name_lisbon_cathedral),
                 context.getString(R.string.city_name_lisbon_cathedral),
@@ -218,9 +221,22 @@ public class PortugalDummyData {
                 context.getString(R.string.website_lisbon_cathedral),
                 context.getString(R.string.google_map_lisbon_cathedral));
 
+        /* ************** *
+         * timeout_market *
+         * ************** */
+        CityEntry timeout_market = new CityEntry(
+                context.getString(R.string.item_name_timeout_market),
+                context.getString(R.string.city_name_timeout_market),
+                context.getString(R.string.category_timeout_market),
+                context.getString(R.string.notes_timeout_market),
+                context.getString(R.string.fb_page_timeout_market),
+                context.getString(R.string.website_timeout_market),
+                context.getString(R.string.google_map_timeout_market));
+
         cityEntryList.add(olaias_park_hotel);
         cityEntryList.add(pasteis_de_belem);
         cityEntryList.add(vasco_da_gama);
+        cityEntryList.add(timeout_market);
         cityEntryList.add(the_old_house);
         cityEntryList.add(mr_lin);
         cityEntryList.add(praca_do_comercio);

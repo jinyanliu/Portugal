@@ -154,4 +154,13 @@
     <string name="website_lisbon_cathedral">https://en.wikipedia.org/wiki/Lisbon_Cathedral</string>
     <string name="google_map_lisbon_cathedral">Largo da Sé, 1100&#8211;585 Lisboa, Portugal</string>
 
+    <!-- TimeOut Market -->
+    <string name="item_name_timeout_market">TimeOut Market</string>
+    <string name="city_name_timeout_market">Lisbon</string>
+    <string name="category_timeout_market">SEE,EAT</string>
+    <string name="notes_timeout_market">Extra food market area in the day time.</string>
+    <string name="fb_page_timeout_market">https://www.facebook.com/TimeOutMarketLisboa/</string>
+    <string name="website_timeout_market">https://www.timeoutmarket.com/lisboa/en/</string>
+    <string name="google_map_timeout_market">Av. 24 de Julho 49, 1200&#8211;479 Lisboa, Portugal</string>
+
 </resources>
