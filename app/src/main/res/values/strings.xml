@@ -81,4 +81,23 @@
     <string name="fb_page_air_portugal">https://www.facebook.com/TAP-Air-Portugal-1899205393647099/</string>
     <string name="website_air_portugal">https://www.flytap.com/en-se/</string>
     <string name="google_map_air_portugal">Alameda das Comunidades Portuguesas, 1700&#8211;111 Lisboa, Portugal</string>
+
+    <!-- VIVA -->
+    <string name="item_name_VIVA">VIVA</string>
+    <string name="city_name_VIVA">Lisbon</string>
+    <string name="category_VIVA">TRANS</string>
+    <string name="notes_VIVA">6.15€ per day transfer in the city. 1.45€ one time transfer in the city. 5€ round trip to Sintra or Cascais.</string>
+    <string name="fb_page_VIVA">https://www.facebook.com/Portal-VIVA-1531410623753931/</string>
+    <string name="website_VIVA">https://www.portalviva.pt/</string>
+    <string name="google_map_VIVA">Av. Dom João II, 1900&#8211;233 Lisboa, Portugal</string>
+
+    <!-- Gare do Oriente -->
+    <string name="item_name_gare_do_oriente">Gare do Oriente</string>
+    <string name="city_name_gare_do_oriente">Lisbon</string>
+    <string name="category_gare_do_oriente">TRANS</string>
+    <string name="notes_gare_do_oriente">Useful and convenient train station. To Porto, Sintra and Cascais. Opposite to Vasco da Gama.</string>
+    <string name="fb_page_gare_do_oriente">https://www.facebook.com/CP</string>
+    <string name="website_gare_do_oriente">https://www.cp.pt/passageiros/pt</string>
+    <string name="google_map_gare_do_oriente">Av. Dom João II, 1900&#8211;233 Lisboa, Portugal</string>
+
 </resources>
