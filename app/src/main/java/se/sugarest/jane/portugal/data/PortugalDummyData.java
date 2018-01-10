@@ -233,8 +233,21 @@ public class PortugalDummyData {
                 context.getString(R.string.website_timeout_market),
                 context.getString(R.string.google_map_timeout_market));
 
+        /* ************************** *
+         * amorino_gelato_al_naturale *
+         * ************************** */
+        CityEntry amorino_gelato_al_naturale = new CityEntry(
+                context.getString(R.string.item_name_amorino_gelato_al_naturale),
+                context.getString(R.string.city_name_amorino_gelato_al_naturale),
+                context.getString(R.string.category_amorino_gelato_al_naturale),
+                context.getString(R.string.notes_amorino_gelato_al_naturale),
+                context.getString(R.string.fb_page_amorino_gelato_al_naturale),
+                context.getString(R.string.website_amorino_gelato_al_naturale),
+                context.getString(R.string.google_map_amorino_gelato_al_naturale));
+
         cityEntryList.add(olaias_park_hotel);
         cityEntryList.add(pasteis_de_belem);
+        cityEntryList.add(amorino_gelato_al_naturale);
         cityEntryList.add(vasco_da_gama);
         cityEntryList.add(timeout_market);
         cityEntryList.add(the_old_house);

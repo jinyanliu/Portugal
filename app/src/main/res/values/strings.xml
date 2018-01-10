@@ -163,4 +163,13 @@
     <string name="website_timeout_market">https://www.timeoutmarket.com/lisboa/en/</string>
     <string name="google_map_timeout_market">Av. 24 de Julho 49, 1200&#8211;479 Lisboa, Portugal</string>
 
+    <!-- Amorino Gelato Al Naturale -->
+    <string name="item_name_amorino_gelato_al_naturale">Amorino Gelato Al Naturale</string>
+    <string name="city_name_amorino_gelato_al_naturale">Lisbon</string>
+    <string name="category_amorino_gelato_al_naturale">EAT</string>
+    <string name="notes_amorino_gelato_al_naturale">I had 24 flavors!</string>
+    <string name="fb_page_amorino_gelato_al_naturale">https://www.facebook.com/pages/Amorino-Lisboa/221071215095885</string>
+    <string name="website_amorino_gelato_al_naturale">https://www.amorino.com/us/</string>
+    <string name="google_map_amorino_gelato_al_naturale">R. Augusta 209, 1100&#8211;042 Lisboa, Portugal</string>
+
 </resources>
