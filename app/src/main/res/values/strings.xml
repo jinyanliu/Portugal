@@ -145,4 +145,13 @@
     <string name="website_sao_jorge_castle">https://en.wikipedia.org/wiki/São_Jorge_Castle</string>
     <string name="google_map_sao_jorge_castle">R. de Santa Cruz do Castelo, 1100&#8211;129 Lisboa, Portugal</string>
 
+    <!-- Lisbon Cathedral -->
+    <string name="item_name_lisbon_cathedral">Lisbon Cathedral</string>
+    <string name="city_name_lisbon_cathedral">Lisbon</string>
+    <string name="category_lisbon_cathedral">SEE</string>
+    <string name="notes_lisbon_cathedral">Another Church.</string>
+    <string name="fb_page_lisbon_cathedral">https://www.facebook.com/pages/Lisbon-Cathedral/133013816738673?rf=155448981143096</string>
+    <string name="website_lisbon_cathedral">https://en.wikipedia.org/wiki/Lisbon_Cathedral</string>
+    <string name="google_map_lisbon_cathedral">Largo da Sé, 1100&#8211;585 Lisboa, Portugal</string>
+
 </resources>
