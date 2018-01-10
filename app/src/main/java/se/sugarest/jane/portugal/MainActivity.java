@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity implements DrawerListFragmen
 
         setUpDummyData();
 
+        setUpSwipeRefreshListener();
+
         mFragmentManager = getSupportFragmentManager();
 
         DrawerListFragment navigationDrawerFragment = new DrawerListFragment();
@@ -71,6 +73,15 @@ public class MainActivity extends AppCompatActivity implements DrawerListFragmen
                 mBinding.drawerLayout.openDrawer(mBinding.navigationDrawerContainer);
             }
         });
+    }
+
+    private void setUpSwipeRefreshListener() {
+        mBinding.swipeRefresh.setOnRefreshListener(
+                () -> {
+                    setUpDummyData();
+                    mBinding.swipeRefresh.setRefreshing(false);
+                }
+        );
     }
 
     @Override
