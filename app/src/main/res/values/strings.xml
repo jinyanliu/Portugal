@@ -1,31 +1,31 @@
 <resources>
     <string name="app_name">Portugal</string>
 
-    <!-- Pastéis de Belém -->
-    <string name="item_name_pasteis_de_belem">Pastéis de Belém</string>
+    <!-- Pasteis de Belem -->
+    <string name="item_name_pasteis_de_belem">Pasteis de Belem</string>
     <string name="city_name_pasteis_de_belem">Lisbon</string>
     <string name="category_pasteis_de_belem">EAT</string>
     <string name="notes_pasteis_de_belem">Portuguese Custard Tarts.</string>
-    <string name="fb_page_pasteis_de_belem">https://www.facebook.com/Pastéis-de-Belém-Página-Oficial-259064930776155/</string>
+    <string name="fb_page_pasteis_de_belem">https://www.facebook.com/Pasteis-de-Belem-Página-Oficial-259064930776155/</string>
     <string name="website_pasteis_de_belem">http://pasteisdebelem.pt/en/</string>
-    <string name="google_map_location_pasteis_de_belem">R. Belém 84&#8211;92, 1300&#8211;085 Lisboa, Portugal</string>
+    <string name="google_map_location_pasteis_de_belem">R. Belem 84&#8211;92, 1300&#8211;085 Lisboa, Portugal</string>
 
-    <!-- Praça do Comércio -->
-    <string name="item_name_praca_do_comercio">Praça do Comércio</string>
+    <!-- Praça do Comercio -->
+    <string name="item_name_praca_do_comercio">Praça do Comercio</string>
     <string name="city_name_praca_do_comercio">Lisbon</string>
     <string name="category_praca_do_comercio">SEE</string>
     <string name="notes_praca_do_comercio">Commerce Square.</string>
-    <string name="fb_page_praca_do_comercio">https://www.facebook.com/pages/Praça-do-comércio-Lisboa/161359554423331</string>
-    <string name="website_praca_do_comercio">https://en.wikipedia.org/wiki/Praça_do_Comércio</string>
+    <string name="fb_page_praca_do_comercio">https://www.facebook.com/pages/Praça-do-comercio-Lisboa/161359554423331</string>
+    <string name="website_praca_do_comercio">https://en.wikipedia.org/wiki/Praça_do_Comercio</string>
     <string name="google_map_location_praca_do_comercio">1100&#8211;148 Lisboa, Portugal</string>
 
-    <!-- Belém Tower -->
-    <string name="item_name_belem_tower">Belém Tower</string>
+    <!-- Belem Tower -->
+    <string name="item_name_belem_tower">Belem Tower</string>
     <string name="city_name_belem_tower">Lisbon</string>
     <string name="category_belem_tower">SEE</string>
     <string name="notes_belem_tower">Tower of St Vincent.</string>
-    <string name="fb_page_belem_tower">https://www.facebook.com/pages/Belém-Tower/107417125955047</string>
-    <string name="website_belem_tower">https://en.wikipedia.org/wiki/Belém_Tower</string>
+    <string name="fb_page_belem_tower">https://www.facebook.com/pages/Belem-Tower/107417125955047</string>
+    <string name="website_belem_tower">https://en.wikipedia.org/wiki/Belem_Tower</string>
     <string name="google_map_location_belem_tower">Av. de Brasília, 1400&#8211;038 Lisboa, Portugal</string>
 
     <!-- Padrão dos Descobrimentos -->
@@ -44,7 +44,7 @@
     <string name="notes_jeronimos_monastery">Hieronymites Monastery.</string>
     <string name="fb_page_jeronimos_monastery">https://www.facebook.com/pages/Jerónimos-Monastery/107584029264604?rf=108986732453282</string>
     <string name="website_jeronimos_monastery">https://en.wikipedia.org/wiki/Jerónimos_Monastery</string>
-    <string name="google_map_jeronimos_monastery">Praça do Império 1400&#8211;206 Lisboa, Portugal</string>
+    <string name="google_map_jeronimos_monastery">Praça do Imperio 1400&#8211;206 Lisboa, Portugal</string>
 
     <!-- Vasco da Gama -->
     <string name="item_name_vasco_da_gama">Vasco da Gama</string>
@@ -99,5 +99,23 @@
     <string name="fb_page_gare_do_oriente">https://www.facebook.com/CP</string>
     <string name="website_gare_do_oriente">https://www.cp.pt/passageiros/pt</string>
     <string name="google_map_gare_do_oriente">Av. Dom João II, 1900&#8211;233 Lisboa, Portugal</string>
+
+    <!-- Olaias Park Hotel -->
+    <string name="item_name_olaias_park_hotel">Olaias Park Hotel</string>
+    <string name="city_name_olaias_park_hotel">Lisbon</string>
+    <string name="category_olaias_park_hotel">STAY</string>
+    <string name="notes_olaias_park_hotel">To Be Continued.</string>
+    <string name="fb_page_olaias_park_hotel">https://www.facebook.com/olaiasparkhotel/</string>
+    <string name="website_olaias_park_hotel">http://www.olaiasparkhotel.com/en/olaias-park-hotel</string>
+    <string name="google_map_olaias_park_hotel">Avenida Engenheiro Arantes e Oliveira 9, 1900&#8211;221 Lisboa, Portugal</string>
+
+    <!-- Instituto Superior Técnico -->
+    <string name="item_name_instituto_superior_tecnico">Instituto Superior Tecnico</string>
+    <string name="city_name_instituto_superior_tecnico">Lisbon</string>
+    <string name="category_instituto_superior_tecnico">SEE</string>
+    <string name="notes_instituto_superior_tecnico">Orange Trees.</string>
+    <string name="fb_page_instituto_superior_tecnico">https://www.facebook.com/tecnico.ulisboa.pt</string>
+    <string name="website_instituto_superior_tecnico">https://tecnico.ulisboa.pt/pt/</string>
+    <string name="google_map_instituto_superior_tecnico">Av. Rovisco Pais 1, 1049&#8211;001 Lisboa, Portugal</string>
 
 </resources>

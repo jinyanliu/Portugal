@@ -19,4 +19,5 @@ public class Constants {
     public static final String CATEGORY_SHOP = "SHOP";
     public static final String CATEGORY_SEE = "SEE";
     public static final String CATEGORY_TRANS = "TRANS";
+    public static final String CATEGORY_STAY = "STAY";
 }

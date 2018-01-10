@@ -160,6 +160,32 @@ public class PortugalDummyData {
                 context.getString(R.string.google_map_gare_do_oriente));
         cityEntryList.add(gare_do_oriente);
 
+         /* *************** *
+         * gare_do_oriente *
+         * *************** */
+        CityEntry olaias_park_hotel = new CityEntry(
+                context.getString(R.string.item_name_olaias_park_hotel),
+                context.getString(R.string.city_name_olaias_park_hotel),
+                context.getString(R.string.category_olaias_park_hotel),
+                context.getString(R.string.notes_olaias_park_hotel),
+                context.getString(R.string.fb_page_olaias_park_hotel),
+                context.getString(R.string.website_olaias_park_hotel),
+                context.getString(R.string.google_map_olaias_park_hotel));
+        cityEntryList.add(olaias_park_hotel);
+
+        /* *************************** *
+         * instituto_superior_tecnico  *
+         * *************************** */
+        CityEntry instituto_superior_técnico = new CityEntry(
+                context.getString(R.string.item_name_instituto_superior_tecnico),
+                context.getString(R.string.city_name_instituto_superior_tecnico),
+                context.getString(R.string.category_instituto_superior_tecnico),
+                context.getString(R.string.notes_instituto_superior_tecnico),
+                context.getString(R.string.fb_page_instituto_superior_tecnico),
+                context.getString(R.string.website_instituto_superior_tecnico),
+                context.getString(R.string.google_map_instituto_superior_tecnico));
+        cityEntryList.add(instituto_superior_técnico);
+
         return cityEntryList;
     }
 }
