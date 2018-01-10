@@ -121,6 +121,19 @@ public class PortugalDummyData {
                 context.getString(R.string.google_map_the_old_house));
         cityEntryList.add(the_old_house);
 
+        /* ************* *
+         * air_portugal *
+         * ************* */
+        CityEntry air_portugal = new CityEntry(
+                context.getString(R.string.item_name_air_portugal),
+                context.getString(R.string.city_name_air_portugal),
+                context.getString(R.string.category_air_portugal),
+                context.getString(R.string.notes_air_portugal),
+                context.getString(R.string.fb_page_air_portugal),
+                context.getString(R.string.website_air_portugal),
+                context.getString(R.string.google_map_air_portugal));
+        cityEntryList.add(air_portugal);
+
         return cityEntryList;
     }
 }

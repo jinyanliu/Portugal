@@ -17,6 +17,7 @@ import se.sugarest.jane.portugal.databinding.MainScreenListItemBinding;
 import static se.sugarest.jane.portugal.utilities.Constants.CATEGORY_EAT;
 import static se.sugarest.jane.portugal.utilities.Constants.CATEGORY_SEE;
 import static se.sugarest.jane.portugal.utilities.Constants.CATEGORY_SHOP;
+import static se.sugarest.jane.portugal.utilities.Constants.CATEGORY_TRANS;
 
 /**
  * Created by jane on 18-1-5.
@@ -123,6 +124,8 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemAdapterVie
                 return R.color.shop_tab;
             case CATEGORY_SEE:
                 return R.color.see_tab;
+            case CATEGORY_TRANS:
+                return R.color.trans_tab;
             default:
                 return R.color.colorAccent;
         }

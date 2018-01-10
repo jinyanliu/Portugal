@@ -8,7 +8,7 @@
     <string name="notes_pasteis_de_belem">Portuguese Custard Tarts.</string>
     <string name="fb_page_pasteis_de_belem">https://www.facebook.com/Pastéis-de-Belém-Página-Oficial-259064930776155/</string>
     <string name="website_pasteis_de_belem">http://pasteisdebelem.pt/en/</string>
-    <string name="google_map_location_pasteis_de_belem">R. Belém 84-92, 1300-085 Lisboa, Portugal</string>
+    <string name="google_map_location_pasteis_de_belem">R. Belém 84&#8211;92, 1300&#8211;085 Lisboa, Portugal</string>
 
     <!-- Praça do Comércio -->
     <string name="item_name_praca_do_comercio">Praça do Comércio</string>
@@ -17,7 +17,7 @@
     <string name="notes_praca_do_comercio">Commerce Square.</string>
     <string name="fb_page_praca_do_comercio">https://www.facebook.com/pages/Praça-do-comércio-Lisboa/161359554423331</string>
     <string name="website_praca_do_comercio">https://en.wikipedia.org/wiki/Praça_do_Comércio</string>
-    <string name="google_map_location_praca_do_comercio">1100-148 Lisboa, Portugal</string>
+    <string name="google_map_location_praca_do_comercio">1100&#8211;148 Lisboa, Portugal</string>
 
     <!-- Belém Tower -->
     <string name="item_name_belem_tower">Belém Tower</string>
@@ -26,7 +26,7 @@
     <string name="notes_belem_tower">Tower of St Vincent.</string>
     <string name="fb_page_belem_tower">https://www.facebook.com/pages/Belém-Tower/107417125955047</string>
     <string name="website_belem_tower">https://en.wikipedia.org/wiki/Belém_Tower</string>
-    <string name="google_map_location_belem_tower">Av. de Brasília, 1400-038 Lisboa, Portugal</string>
+    <string name="google_map_location_belem_tower">Av. de Brasília, 1400&#8211;038 Lisboa, Portugal</string>
 
     <!-- Padrão dos Descobrimentos -->
     <string name="item_name_padrao_dos_descobrimentos">Padrão dos Descobrimentos</string>
@@ -35,7 +35,7 @@
     <string name="notes_padrao_dos_descobrimentos">Monument of the Discoveries.</string>
     <string name="fb_page_padrao_dos_descobrimentos">https://www.facebook.com/padraodosdescobrimentos/?rf=132123063490065</string>
     <string name="website_padrao_dos_descobrimentos">https://en.wikipedia.org/wiki/Padrão_dos_Descobrimentos</string>
-    <string name="google_map_location_padrao_dos_descobrimentos">Av. de Brasília, 1400-038 Lisboa, Portugal</string>
+    <string name="google_map_location_padrao_dos_descobrimentos">Av. de Brasília, 1400&#8211;038 Lisboa, Portugal</string>
 
     <!-- Jerónimos Monastery -->
     <string name="item_name_jeronimos_monastery">Jerónimos Monastery</string>
@@ -44,7 +44,7 @@
     <string name="notes_jeronimos_monastery">Hieronymites Monastery.</string>
     <string name="fb_page_jeronimos_monastery">https://www.facebook.com/pages/Jerónimos-Monastery/107584029264604?rf=108986732453282</string>
     <string name="website_jeronimos_monastery">https://en.wikipedia.org/wiki/Jerónimos_Monastery</string>
-    <string name="google_map_jeronimos_monastery">Praça do Império 1400-206 Lisboa, Portugal</string>
+    <string name="google_map_jeronimos_monastery">Praça do Império 1400&#8211;206 Lisboa, Portugal</string>
 
     <!-- Vasco da Gama -->
     <string name="item_name_vasco_da_gama">Vasco da Gama</string>
@@ -53,7 +53,7 @@
     <string name="notes_vasco_da_gama">KFC</string>
     <string name="fb_page_vasco_da_gama">https://www.facebook.com/centrovascodagama</string>
     <string name="website_vasco_da_gama">https://www.centrovascodagama.pt/en/home/</string>
-    <string name="google_map_vasco_da_gama">Av. Dom João II 40, 1990-094 Lisboa, Portugal</string>
+    <string name="google_map_vasco_da_gama">Av. Dom João II 40, 1990&#8211;094 Lisboa, Portugal</string>
 
     <!-- Mr Lin -->
     <string name="item_name_mr_lin">Mr Lin</string>
@@ -62,7 +62,7 @@
     <string name="notes_mr_lin">Chinese Restaurant.</string>
     <string name="fb_page_mr_lin">https://www.facebook.com/Mr-Lin-720818254724936/?rf=1669417166612253</string>
     <string name="website_mr_lin">https://www.tripadvisor.com/Restaurant_Review-g189158-d10529065-Reviews-Mr_Lin-Lisbon_Lisbon_District_Central_Portugal.html</string>
-    <string name="google_map_mr_lin">R. Pimenta 45, 1990-254 Lisboa, Portugal</string>
+    <string name="google_map_mr_lin">R. Pimenta 45, 1990&#8211;254 Lisboa, Portugal</string>
 
     <!-- The Old House -->
     <string name="item_name_the_old_house">The Old House</string>
@@ -71,5 +71,14 @@
     <string name="notes_the_old_house">Chinese Restaurant.</string>
     <string name="fb_page_the_old_house">https://www.facebook.com/TheOldHousePortugal/</string>
     <string name="website_the_old_house">http://www.theoldhouseportugal.pt/</string>
-    <string name="google_map_the_old_house">R. Pimenta 9, 1990-254 Lisboa, Portugal</string>
+    <string name="google_map_the_old_house">R. Pimenta 9, 1990&#8211;254 Lisboa, Portugal</string>
+
+    <!-- Air Portugal -->
+    <string name="item_name_air_portugal">Air Portugal</string>
+    <string name="city_name_air_portugal">Lisbon</string>
+    <string name="category_air_portugal">TRANS</string>
+    <string name="notes_air_portugal">Very good. From Lisbon to Stockholm, with one meal.</string>
+    <string name="fb_page_air_portugal">https://www.facebook.com/TAP-Air-Portugal-1899205393647099/</string>
+    <string name="website_air_portugal">https://www.flytap.com/en-se/</string>
+    <string name="google_map_air_portugal">Alameda das Comunidades Portuguesas, 1700&#8211;111 Lisboa, Portugal</string>
 </resources>
