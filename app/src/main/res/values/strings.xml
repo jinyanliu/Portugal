@@ -127,4 +127,22 @@
     <string name="website_gulbenkian_park">https://gulbenkian.pt/jardim/</string>
     <string name="google_map_gulbenkian_park">Av. de Berna 45, 1050&#8211;078 Lisboa, Portugal</string>
 
+    <!-- Eduardo VII Park -->
+    <string name="item_name_eduardo_vii_park">Eduardo VII Park</string>
+    <string name="city_name_eduardo_vii_park">Lisbon</string>
+    <string name="category_eduardo_vii_park">SEE</string>
+    <string name="notes_eduardo_vii_park">Wonderland.</string>
+    <string name="fb_page_eduardo_vii_park">https://www.facebook.com/pages/Eduardo-VII-Park/103239249731493</string>
+    <string name="website_eduardo_vii_park">https://en.wikipedia.org/wiki/Eduardo_VII_Park</string>
+    <string name="google_map_eduardo_vii_park">1070&#8211;051 Lisbon, Portugal</string>
+
+    <!-- São Jorge Castle -->
+    <string name="item_name_sao_jorge_castle">São Jorge Castle</string>
+    <string name="city_name_sao_jorge_castle">Lisbon</string>
+    <string name="category_sao_jorge_castle">SEE</string>
+    <string name="notes_sao_jorge_castle">We didn\'t have a chance to go inside.</string>
+    <string name="fb_page_sao_jorge_castle">https://www.facebook.com/CASTELO-DE-S-JORGE-127972983902935/</string>
+    <string name="website_sao_jorge_castle">https://en.wikipedia.org/wiki/São_Jorge_Castle</string>
+    <string name="google_map_sao_jorge_castle">R. de Santa Cruz do Castelo, 1100&#8211;129 Lisboa, Portugal</string>
+
 </resources>

@@ -185,6 +185,30 @@ public class PortugalDummyData {
                 context.getString(R.string.website_gulbenkian_park),
                 context.getString(R.string.google_map_gulbenkian_park));
 
+        /* **************** *
+         * eduardo_vii_park *
+         * **************** */
+        CityEntry eduardo_vii_park = new CityEntry(
+                context.getString(R.string.item_name_eduardo_vii_park),
+                context.getString(R.string.city_name_eduardo_vii_park),
+                context.getString(R.string.category_eduardo_vii_park),
+                context.getString(R.string.notes_eduardo_vii_park),
+                context.getString(R.string.fb_page_eduardo_vii_park),
+                context.getString(R.string.website_eduardo_vii_park),
+                context.getString(R.string.google_map_eduardo_vii_park));
+
+        /* **************** *
+         * sao_jorge_castle *
+         * **************** */
+        CityEntry sao_jorge_castle = new CityEntry(
+                context.getString(R.string.item_name_sao_jorge_castle),
+                context.getString(R.string.city_name_sao_jorge_castle),
+                context.getString(R.string.category_sao_jorge_castle),
+                context.getString(R.string.notes_sao_jorge_castle),
+                context.getString(R.string.fb_page_sao_jorge_castle),
+                context.getString(R.string.website_sao_jorge_castle),
+                context.getString(R.string.google_map_sao_jorge_castle));
+
         cityEntryList.add(olaias_park_hotel);
         cityEntryList.add(pasteis_de_belem);
         cityEntryList.add(vasco_da_gama);
@@ -196,6 +220,8 @@ public class PortugalDummyData {
         cityEntryList.add(jeronimos_monastery);
         cityEntryList.add(instituto_superior_técnico);
         cityEntryList.add(gulbenkian_park);
+        cityEntryList.add(eduardo_vii_park);
+        cityEntryList.add(sao_jorge_castle);
         cityEntryList.add(air_portugal);
         cityEntryList.add(viva);
         cityEntryList.add(gare_do_oriente);
