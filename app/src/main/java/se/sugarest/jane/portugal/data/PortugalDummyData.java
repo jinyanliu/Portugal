@@ -28,7 +28,6 @@ public class PortugalDummyData {
                 context.getString(R.string.fb_page_pasteis_de_belem),
                 context.getString(R.string.website_pasteis_de_belem),
                 context.getString(R.string.google_map_location_pasteis_de_belem));
-        cityEntryList.add(pasteis_de_belem);
 
         /* ***************** *
          * praca_do_comercio *
@@ -41,7 +40,6 @@ public class PortugalDummyData {
                 context.getString(R.string.fb_page_praca_do_comercio),
                 context.getString(R.string.website_praca_do_comercio),
                 context.getString(R.string.google_map_location_praca_do_comercio));
-        cityEntryList.add(praca_do_comercio);
 
          /* ********** *
          * belem_tower *
@@ -54,7 +52,6 @@ public class PortugalDummyData {
                 context.getString(R.string.fb_page_belem_tower),
                 context.getString(R.string.website_belem_tower),
                 context.getString(R.string.google_map_location_belem_tower));
-        cityEntryList.add(belem_tower);
 
         /* ************************* *
          * padrao_dos_descobrimentos *
@@ -67,7 +64,6 @@ public class PortugalDummyData {
                 context.getString(R.string.fb_page_padrao_dos_descobrimentos),
                 context.getString(R.string.website_padrao_dos_descobrimentos),
                 context.getString(R.string.google_map_location_padrao_dos_descobrimentos));
-        cityEntryList.add(padrao_dos_descobrimentos);
 
         /* ******************* *
          * jeronimos_monastery *
@@ -80,7 +76,6 @@ public class PortugalDummyData {
                 context.getString(R.string.fb_page_jeronimos_monastery),
                 context.getString(R.string.website_jeronimos_monastery),
                 context.getString(R.string.google_map_jeronimos_monastery));
-        cityEntryList.add(jeronimos_monastery);
 
         /* ************* *
          * vasco_da_gama *
@@ -93,7 +88,6 @@ public class PortugalDummyData {
                 context.getString(R.string.fb_page_vasco_da_gama),
                 context.getString(R.string.website_vasco_da_gama),
                 context.getString(R.string.google_map_vasco_da_gama));
-        cityEntryList.add(vasco_da_gama);
 
          /* ****** *
           * mr_lin *
@@ -106,7 +100,6 @@ public class PortugalDummyData {
                 context.getString(R.string.fb_page_mr_lin),
                 context.getString(R.string.website_mr_lin),
                 context.getString(R.string.google_map_mr_lin));
-        cityEntryList.add(mr_lin);
 
         /* ************* *
          * the_old_house *
@@ -119,7 +112,6 @@ public class PortugalDummyData {
                 context.getString(R.string.fb_page_the_old_house),
                 context.getString(R.string.website_the_old_house),
                 context.getString(R.string.google_map_the_old_house));
-        cityEntryList.add(the_old_house);
 
         /* ************ *
          * air_portugal *
@@ -132,7 +124,6 @@ public class PortugalDummyData {
                 context.getString(R.string.fb_page_air_portugal),
                 context.getString(R.string.website_air_portugal),
                 context.getString(R.string.google_map_air_portugal));
-        cityEntryList.add(air_portugal);
 
         /* **** *
          * viva *
@@ -145,7 +136,6 @@ public class PortugalDummyData {
                 context.getString(R.string.fb_page_VIVA),
                 context.getString(R.string.website_VIVA),
                 context.getString(R.string.google_map_VIVA));
-        cityEntryList.add(viva);
 
         /* *************** *
          * gare_do_oriente *
@@ -158,7 +148,6 @@ public class PortugalDummyData {
                 context.getString(R.string.fb_page_gare_do_oriente),
                 context.getString(R.string.website_gare_do_oriente),
                 context.getString(R.string.google_map_gare_do_oriente));
-        cityEntryList.add(gare_do_oriente);
 
          /* *************** *
          * gare_do_oriente *
@@ -171,7 +160,6 @@ public class PortugalDummyData {
                 context.getString(R.string.fb_page_olaias_park_hotel),
                 context.getString(R.string.website_olaias_park_hotel),
                 context.getString(R.string.google_map_olaias_park_hotel));
-        cityEntryList.add(olaias_park_hotel);
 
         /* *************************** *
          * instituto_superior_tecnico  *
@@ -184,7 +172,20 @@ public class PortugalDummyData {
                 context.getString(R.string.fb_page_instituto_superior_tecnico),
                 context.getString(R.string.website_instituto_superior_tecnico),
                 context.getString(R.string.google_map_instituto_superior_tecnico));
+
+        cityEntryList.add(olaias_park_hotel);
+        cityEntryList.add(pasteis_de_belem);
+        cityEntryList.add(vasco_da_gama);
+        cityEntryList.add(the_old_house);
+        cityEntryList.add(mr_lin);
+        cityEntryList.add(praca_do_comercio);
+        cityEntryList.add(belem_tower);
+        cityEntryList.add(padrao_dos_descobrimentos);
+        cityEntryList.add(jeronimos_monastery);
         cityEntryList.add(instituto_superior_técnico);
+        cityEntryList.add(air_portugal);
+        cityEntryList.add(viva);
+        cityEntryList.add(gare_do_oriente);
 
         return cityEntryList;
     }

@@ -4,6 +4,7 @@ import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 
 import se.sugarest.jane.portugal.data.PortugalDummyData;
@@ -16,6 +17,8 @@ import se.sugarest.jane.portugal.utilities.AppExecutors;
 
 public class MainActivity extends AppCompatActivity implements DrawerListFragment.DrawerListOnItemClickListener
         , MainScreenListFragment.MainScreenListOnItemClickListener {
+
+    private static final String LOG_TAG = MainActivity.class.getSimpleName();
 
     private ActivityMainBinding mBinding;
     private FragmentManager mFragmentManager;
@@ -62,6 +65,8 @@ public class MainActivity extends AppCompatActivity implements DrawerListFragmen
         executors.diskIO().execute(() -> {
             portugalDao.deleteCityEntries();
             portugalDao.bulkInsertCityEntry(portugalDummyDataSource.getDummyListCityEntries(this));
+            Log.i(LOG_TAG, "portugalDummyDataSource.getDummyListCityEntries(this).size()="
+                    + portugalDummyDataSource.getDummyListCityEntries(this).size());
         });
     }
 
