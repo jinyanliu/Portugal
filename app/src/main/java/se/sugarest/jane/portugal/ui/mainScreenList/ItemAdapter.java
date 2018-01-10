@@ -97,14 +97,17 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ItemAdapterVie
         public void bind(String itemName, String category) {
             mBinding.tvItemName.setText(itemName);
             if (category.contains(",")) {
+                mBinding.tvCategoryTwo.setVisibility(View.VISIBLE);
+
                 mBinding.tvCategoryOne.setText(category.split(",")[0]);
                 mBinding.tvCategoryOne.setBackgroundColor(ContextCompat.getColor(mContext, getBgColor(category.split(",")[0])));
                 mBinding.tvCategoryTwo.setText(category.split(",")[1]);
                 mBinding.tvCategoryTwo.setBackgroundColor(ContextCompat.getColor(mContext, getBgColor(category.split(",")[1])));
             } else {
+                mBinding.tvCategoryTwo.setVisibility(View.GONE);
+
                 mBinding.tvCategoryOne.setText(category);
                 mBinding.tvCategoryOne.setBackgroundColor(ContextCompat.getColor(mContext, getBgColor(category)));
-                mBinding.tvCategoryTwo.setVisibility(View.GONE);
             }
             mBinding.executePendingBindings();
         }
