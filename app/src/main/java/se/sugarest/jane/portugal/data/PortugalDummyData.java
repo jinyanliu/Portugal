@@ -173,6 +173,18 @@ public class PortugalDummyData {
                 context.getString(R.string.website_instituto_superior_tecnico),
                 context.getString(R.string.google_map_instituto_superior_tecnico));
 
+        /* **************** *
+         * gulbenkian_park  *
+         * **************** */
+        CityEntry gulbenkian_park = new CityEntry(
+                context.getString(R.string.item_name_gulbenkian_park),
+                context.getString(R.string.city_name_gulbenkian_park),
+                context.getString(R.string.category_gulbenkian_park),
+                context.getString(R.string.notes_gulbenkian_park),
+                context.getString(R.string.fb_page_gulbenkian_park),
+                context.getString(R.string.website_gulbenkian_park),
+                context.getString(R.string.google_map_gulbenkian_park));
+
         cityEntryList.add(olaias_park_hotel);
         cityEntryList.add(pasteis_de_belem);
         cityEntryList.add(vasco_da_gama);
@@ -183,6 +195,7 @@ public class PortugalDummyData {
         cityEntryList.add(padrao_dos_descobrimentos);
         cityEntryList.add(jeronimos_monastery);
         cityEntryList.add(instituto_superior_técnico);
+        cityEntryList.add(gulbenkian_park);
         cityEntryList.add(air_portugal);
         cityEntryList.add(viva);
         cityEntryList.add(gare_do_oriente);

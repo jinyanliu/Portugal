@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Portugal</string>
 
-    <!-- Pasteis de Belem -->
-    <string name="item_name_pasteis_de_belem">Pasteis de Belem</string>
+    <!-- Pastéis de Belém -->
+    <string name="item_name_pasteis_de_belem">Pastéis de Belém</string>
     <string name="city_name_pasteis_de_belem">Lisbon</string>
     <string name="category_pasteis_de_belem">EAT</string>
     <string name="notes_pasteis_de_belem">Portuguese Custard Tarts.</string>
@@ -19,8 +19,8 @@
     <string name="website_praca_do_comercio">https://en.wikipedia.org/wiki/Praça_do_Comercio</string>
     <string name="google_map_location_praca_do_comercio">1100&#8211;148 Lisboa, Portugal</string>
 
-    <!-- Belem Tower -->
-    <string name="item_name_belem_tower">Belem Tower</string>
+    <!-- Belém Tower -->
+    <string name="item_name_belem_tower">Belém Tower</string>
     <string name="city_name_belem_tower">Lisbon</string>
     <string name="category_belem_tower">SEE</string>
     <string name="notes_belem_tower">Tower of St Vincent.</string>
@@ -117,5 +117,14 @@
     <string name="fb_page_instituto_superior_tecnico">https://www.facebook.com/tecnico.ulisboa.pt</string>
     <string name="website_instituto_superior_tecnico">https://tecnico.ulisboa.pt/pt/</string>
     <string name="google_map_instituto_superior_tecnico">Av. Rovisco Pais 1, 1049&#8211;001 Lisboa, Portugal</string>
+
+    <!-- Gulbenkian Park -->
+    <string name="item_name_gulbenkian_park">Gulbenkian Park</string>
+    <string name="city_name_gulbenkian_park">Lisbon</string>
+    <string name="category_gulbenkian_park">SEE</string>
+    <string name="notes_gulbenkian_park">Beautiful. Ducks.</string>
+    <string name="fb_page_gulbenkian_park">https://www.facebook.com/fundacaocaloustegulbenkian/</string>
+    <string name="website_gulbenkian_park">https://gulbenkian.pt/jardim/</string>
+    <string name="google_map_gulbenkian_park">Av. de Berna 45, 1050&#8211;078 Lisboa, Portugal</string>
 
 </resources>
