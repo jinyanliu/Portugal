@@ -269,6 +269,18 @@ public class PortugalDummyData {
                 context.getString(R.string.website_lisbon_oceanarium),
                 context.getString(R.string.google_map_lisbon_oceanarium));
 
+        /* ************* *
+         * rossio_square *
+         * ************* */
+        CityEntry rossio_square = new CityEntry(
+                context.getString(R.string.item_name_rossio_square),
+                context.getString(R.string.city_name_rossio_square),
+                context.getString(R.string.category_rossio_square),
+                context.getString(R.string.notes_rossio_square),
+                context.getString(R.string.fb_page_rossio_square),
+                context.getString(R.string.website_rossio_square),
+                context.getString(R.string.google_map_rossio_square));
+
         cityEntryList.add(olaias_park_hotel);
         cityEntryList.add(pasteis_de_belem);
         cityEntryList.add(amorino_gelato_al_naturale);
@@ -287,6 +299,7 @@ public class PortugalDummyData {
         cityEntryList.add(eduardo_vii_park);
         cityEntryList.add(sao_jorge_castle);
         cityEntryList.add(lisbon_cathedral);
+        cityEntryList.add(rossio_square);
         cityEntryList.add(air_portugal);
         cityEntryList.add(viva);
         cityEntryList.add(gare_do_oriente);

@@ -190,4 +190,13 @@
     <string name="website_lisbon_oceanarium">https://www.oceanario.pt/en</string>
     <string name="google_map_lisbon_oceanarium">Esplanada Dom Carlos I s/nº, 1990&#8211;005 Lisboa, Portugal</string>
 
+    <!-- Rossio Square -->
+    <string name="item_name_rossio_square">Rossio Square</string>
+    <string name="city_name_rossio_square">Lisbon</string>
+    <string name="category_rossio_square">SEE</string>
+    <string name="notes_rossio_square">Poor.</string>
+    <string name="fb_page_rossio_square">https://www.facebook.com/PracaDoRossio/</string>
+    <string name="website_rossio_square">https://en.wikipedia.org/wiki/Rossio_Square</string>
+    <string name="google_map_rossio_square">Lisbon 1100&#8211;026, Portugal</string>
+
 </resources>
