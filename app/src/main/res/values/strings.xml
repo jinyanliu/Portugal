@@ -181,4 +181,13 @@
     <string name="website_pangzi_mianguan">http://pangzi-mianguan.business.site/</string>
     <string name="google_map_pangzi_mianguan">R. Fernandes da Fonseca 12, 1100&#8211;394 Lisboa, Portugal</string>
 
+    <!-- Lisbon Oceanarium -->
+    <string name="item_name_lisbon_oceanarium">Lisbon Oceanarium</string>
+    <string name="city_name_lisbon_oceanarium">Lisbon</string>
+    <string name="category_lisbon_oceanarium">SEE</string>
+    <string name="notes_lisbon_oceanarium">Wonderful!</string>
+    <string name="fb_page_lisbon_oceanarium">https://www.facebook.com/Oceanario.de.Lisboa</string>
+    <string name="website_lisbon_oceanarium">https://www.oceanario.pt/en</string>
+    <string name="google_map_lisbon_oceanarium">Esplanada Dom Carlos I s/nº, 1990&#8211;005 Lisboa, Portugal</string>
+
 </resources>

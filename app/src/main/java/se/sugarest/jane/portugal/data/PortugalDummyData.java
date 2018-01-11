@@ -257,6 +257,18 @@ public class PortugalDummyData {
                 context.getString(R.string.website_pangzi_mianguan),
                 context.getString(R.string.google_map_pangzi_mianguan));
 
+        /* ***************** *
+         * lisbon_oceanarium *
+         * ***************** */
+        CityEntry lisbon_oceanarium = new CityEntry(
+                context.getString(R.string.item_name_lisbon_oceanarium),
+                context.getString(R.string.city_name_lisbon_oceanarium),
+                context.getString(R.string.category_lisbon_oceanarium),
+                context.getString(R.string.notes_lisbon_oceanarium),
+                context.getString(R.string.fb_page_lisbon_oceanarium),
+                context.getString(R.string.website_lisbon_oceanarium),
+                context.getString(R.string.google_map_lisbon_oceanarium));
+
         cityEntryList.add(olaias_park_hotel);
         cityEntryList.add(pasteis_de_belem);
         cityEntryList.add(amorino_gelato_al_naturale);
@@ -265,6 +277,7 @@ public class PortugalDummyData {
         cityEntryList.add(the_old_house);
         cityEntryList.add(mr_lin);
         cityEntryList.add(pangzi_mianguan);
+        cityEntryList.add(lisbon_oceanarium);
         cityEntryList.add(praca_do_comercio);
         cityEntryList.add(belem_tower);
         cityEntryList.add(padrao_dos_descobrimentos);
