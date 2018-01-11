@@ -245,6 +245,18 @@ public class PortugalDummyData {
                 context.getString(R.string.website_amorino_gelato_al_naturale),
                 context.getString(R.string.google_map_amorino_gelato_al_naturale));
 
+        /* *************** *
+         * pangzi_mianguan *
+         * *************** */
+        CityEntry pangzi_mianguan = new CityEntry(
+                context.getString(R.string.item_name_pangzi_mianguan),
+                context.getString(R.string.city_name_pangzi_mianguan),
+                context.getString(R.string.category_pangzi_mianguan),
+                context.getString(R.string.notes_pangzi_mianguan),
+                context.getString(R.string.fb_page_pangzi_mianguan),
+                context.getString(R.string.website_pangzi_mianguan),
+                context.getString(R.string.google_map_pangzi_mianguan));
+
         cityEntryList.add(olaias_park_hotel);
         cityEntryList.add(pasteis_de_belem);
         cityEntryList.add(amorino_gelato_al_naturale);
@@ -252,6 +264,7 @@ public class PortugalDummyData {
         cityEntryList.add(timeout_market);
         cityEntryList.add(the_old_house);
         cityEntryList.add(mr_lin);
+        cityEntryList.add(pangzi_mianguan);
         cityEntryList.add(praca_do_comercio);
         cityEntryList.add(belem_tower);
         cityEntryList.add(padrao_dos_descobrimentos);

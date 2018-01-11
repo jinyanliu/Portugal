@@ -172,4 +172,13 @@
     <string name="website_amorino_gelato_al_naturale">https://www.amorino.com/us/</string>
     <string name="google_map_amorino_gelato_al_naturale">R. Augusta 209, 1100&#8211;042 Lisboa, Portugal</string>
 
+    <!-- Pangzi Mianguan -->
+    <string name="item_name_pangzi_mianguan">Pangzi Mianguan </string>
+    <string name="city_name_pangzi_mianguan">Lisbon</string>
+    <string name="category_pangzi_mianguan">EAT</string>
+    <string name="notes_pangzi_mianguan">Suan La Fen. Pai Gu Mian.</string>
+    <string name="fb_page_pangzi_mianguan">http://pangzi-mianguan.business.site/</string>
+    <string name="website_pangzi_mianguan">http://pangzi-mianguan.business.site/</string>
+    <string name="google_map_pangzi_mianguan">R. Fernandes da Fonseca 12, 1100&#8211;394 Lisboa, Portugal</string>
+
 </resources>
